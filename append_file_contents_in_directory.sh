@@ -13,6 +13,6 @@ then
         cat $file_name >> $output_file
     done
 else
-    echo "\033[7mPlease provide source folder and output file name as arguments\033[0m"
+    echo "\033[7mAw!! Snap.. Please provide source folder and output file name as arguments\033[0m"
     echo "Example: sh script_name.sh source_folder output_file"
 fi
