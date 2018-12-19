@@ -1,8 +1,8 @@
 #!/bin/bash
 # ***** To demonstrate if-then-else-fi syntax *****
-# Execution "sh scriptname.sh"
+# Execution "sh script_name.sh"
 
-echo "\033[7mEnter a number\033[0m"
+echo "\033[7mEnter a number:\033[0m \c"
 read num
 if [ $num -eq 0 ]
 then
