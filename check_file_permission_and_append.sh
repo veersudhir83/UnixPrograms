@@ -1,8 +1,8 @@
 #!/bin/bash
 # ***** To check if user has write permission to given file and append *****
-# Execution "sh check_file_permission_and_append.sh"
+# Execution "sh script_name.sh"
 
-echo "\033[7mInput a file to check in the current directory:\033[0m"
+echo "\033[7mInput a file to check in the current directory:\033[0m \c"
 read fileName
 if [ -f $fileName ]
 then
