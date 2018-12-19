@@ -11,3 +11,5 @@
 | `banner.sh`                            | To display the input text as a large banner                                |                         
 | `check_file_directory_existence.sh`    | To check if file/directory exists and display its size/contents            |
 | `check_file_permission_and_append.sh`  | To check if the user has write permission to file and append contents      |
+| `string_operations.sh`                 | To perform operations on strings                                           |
+| `logical_operations.sh`                | To perform logical operations                                              |
