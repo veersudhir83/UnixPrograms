@@ -24,7 +24,9 @@
 ## Other useful commands
 1. **grep** To find a pattern of text in a file
 ```sh
-grep -n -i <pattern> <file_name>
+grep -n -i -c <pattern> <file_name>
 ```
--i = ignore case sensitivity
--n = display the line number of the matched occurrence in the file
+-i = ignores case sensitivity
+-n = displays the line number of the matched occurrence in the file
+-c = displays only the count of occurrences
+-v = shows all the lines that do not match the given pattern
