@@ -1,6 +1,6 @@
 #!/bin/bash
 # ***** Play with string operations *****
-# Execution: "sh scriptname.sh"
+# Execution: "sh script_name.sh"
 
 str1="Hello"
 str2="There!!"
