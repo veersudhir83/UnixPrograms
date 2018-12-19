@@ -16,3 +16,15 @@
 | `case_block.sh`                        | To demonstrate usage of case statement                                     |
 | `case_block_advanced.sh`               | To demonstrate advanced usage of case statement                            |
 | `loops.sh`                             | To demonstrate the usage of different kind of loops                        |
+
+
+
+
+
+## Other useful commands
+1. **grep** To find a pattern of text in a file
+```sh
+grep -n -i <pattern> <file_name>
+```
+-i = ignore case sensitivity
+-n = display the line number of the matched occurrence in the file
