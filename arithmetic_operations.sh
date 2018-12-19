@@ -1,6 +1,6 @@
 #!/bin/bash
 # ***** To do arithmetic operations using expr and bc *****
-# Execution: "sh scriptname.sh"
+# Execution: "sh script_name.sh"
 
 # Use expr for integers
 a=30 b=10 c=5 d=2
