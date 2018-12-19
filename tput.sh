@@ -1,6 +1,6 @@
 #!/bin/bash
 # ***** To use tput for operating the terminal *****
-# Execution: "sh scriptname.sh"
+# Execution: "sh script_name.sh"
 
 tput clear
 echo "Total no:of rows on screen=\c"
