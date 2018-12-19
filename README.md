@@ -15,3 +15,4 @@
 | `logical_operations.sh`                | To perform logical operations                                              |
 | `case_block.sh`                        | To demonstrate usage of case statement                                     |
 | `case_block_advanced.sh`               | To demonstrate advanced usage of case statement                            |
+| `loops.sh`                             | To demonstrate the usage of different kind of loops                        |
