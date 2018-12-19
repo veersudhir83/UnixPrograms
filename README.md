@@ -14,3 +14,4 @@
 | `string_operations.sh`                 | To perform operations on strings                                           |
 | `logical_operations.sh`                | To perform logical operations                                              |
 | `case_block.sh`                        | To demonstrate usage of case statement                                     |
+| `case_block_advanced.sh`               | To demonstrate advanced usage of case statement                            |
