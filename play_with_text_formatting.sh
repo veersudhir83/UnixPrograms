@@ -1,6 +1,6 @@
 #!/bin/bash
 # ***** Display text in different formats using escape sequences *****
-# Execution: "sh scriptname.sh"
+# Execution: "sh script_name.sh"
 
 echo "display as normal text"
 echo "\033[1mdisplay as bold text\033[0m"
