@@ -2,7 +2,7 @@
 # ***** To demonstrate if-then-else-fi syntax *****
 # Execution "sh script_name.sh"
 
-echo "\033[7mEnter a number:\033[0m \c"
+echo "\033[7mEnter a number:\033[0m "
 read num
 if [ $num -eq 0 ]
 then

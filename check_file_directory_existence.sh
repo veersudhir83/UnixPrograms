@@ -3,7 +3,7 @@
 # Execution "sh script_name.sh"
 ###### Further options -r, -w and -x to check if file has read/write/execute permissions ######
 
-echo "\033[7mInput a file/directory name to check in the current directory:\033[0m \c"
+echo "\033[7mInput a file/directory name to check in the current directory:\033[0m "
 read fileName
 message=""
 if [ -f $fileName ]

@@ -13,3 +13,4 @@
 | `check_file_permission_and_append.sh`  | To check if the user has write permission to file and append contents      |
 | `string_operations.sh`                 | To perform operations on strings                                           |
 | `logical_operations.sh`                | To perform logical operations                                              |
+| `case_block.sh`                        | To demonstrate usage of case statement                                     |

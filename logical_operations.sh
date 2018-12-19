@@ -2,7 +2,7 @@
 # ***** Perform logical operations *****
 # Execution: "sh script_name.sh"
 
-echo "\033[7mInput a number between 1 and 100:\033[0m \c"
+echo "\033[7mInput a number between 1 and 100:\033[0m "
 read num
 
 # use any of the below syntaxes
