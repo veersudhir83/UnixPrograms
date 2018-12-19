@@ -8,10 +8,10 @@ if [ -f $fileName ]
 then
     if [ -w $fileName ]
     then
-        echo "\033[7mYou have permission to write.. Start writing text to append.. press Ctrl+D to stop writing\033[0m"
+        echo "\033[7mYou have permission to write.. Type matter to append.. To quit press Ctrl+D\033[0m"
         cat >> $fileName
     else 
-        echo "You donot have write permission on the given file"
+        echo "Aw.. Snap !! You donot have write permission on the given file"
     fi
 else
     echo "File doesnot exist"
