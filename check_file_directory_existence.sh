@@ -1,9 +1,9 @@
 #!/bin/bash
 # ***** To check if given file/directory exists in the current directory *****
-# Execution "sh check_file_directory_existence.sh"
+# Execution "sh script_name.sh"
 ###### Further options -r, -w and -x to check if file has read/write/execute permissions ######
 
-echo "\033[7mInput a file/directory name to check in the current directory:\033[0m"
+echo "\033[7mInput a file/directory name to check in the current directory:\033[0m \c"
 read fileName
 message=""
 if [ -f $fileName ]
