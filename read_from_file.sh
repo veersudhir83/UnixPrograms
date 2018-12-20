@@ -19,7 +19,7 @@ then
     exec < $fileName
 
     count=1
-    while read line
+    while IFS= read -r line
     do
         while [ ${#count} -ne ${#noOfLines} ] # to pad line numbers with zeros prefixed
         do
