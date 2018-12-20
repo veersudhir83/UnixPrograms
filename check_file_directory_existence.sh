@@ -1,5 +1,5 @@
 #!/bin/bash
-# ***** To check if given file/directory exists in the current directory *****
+# Purpose: To check if given file/directory exists in the current directory.
 # Execution "sh script_name.sh"
 ###### Further options -r, -w and -x to check if file has read/write/execute permissions ######
 

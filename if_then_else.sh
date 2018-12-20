@@ -1,5 +1,5 @@
 #!/bin/bash
-# ***** To demonstrate if-then-else-fi syntax *****
+# Purpose: To demonstrate if-then-else-fi syntax.
 # Execution "sh script_name.sh"
 
 echo "\033[7mEnter a number:\033[0m "

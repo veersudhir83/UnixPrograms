@@ -1,5 +1,5 @@
 #!/bin/bash
-# ***** Play with string operations *****
+# Purpose: Play with string operations.
 # Execution: "sh script_name.sh"
 
 str1="Hello"

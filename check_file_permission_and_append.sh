@@ -1,5 +1,5 @@
 #!/bin/bash
-# ***** To check if user has write permission to given file and append *****
+# Purpose: To check if user has write permission to given file and append.
 # Execution "sh script_name.sh"
 
 echo "\033[7mInput a file to check in the current directory:\033[0m "

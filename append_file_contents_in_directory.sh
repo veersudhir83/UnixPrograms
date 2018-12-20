@@ -1,5 +1,5 @@
 #!/bin/bash
-# ***** To read .txt files from a directory and append the contents to a new output file *****
+# Purpose: To read .txt files from a directory and append the contents to a new output file.
 # Exection: "sh script_name.sh source_folder output_file"
 
 source_folder=$1

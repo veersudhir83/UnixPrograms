@@ -1,5 +1,5 @@
 #!/bin/bash
-# ***** To do arithmetic operations using expr and bc *****
+# Purpose: To do arithmetic operations using expr and bc.
 # Execution: "sh script_name.sh"
 
 # Use expr for integers

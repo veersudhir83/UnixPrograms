@@ -1,5 +1,5 @@
 #!/bin/bash
-# ***** Display text in different formats using escape sequences *****
+# Purpose: Display text in different formats using escape sequences.
 # Execution: "sh script_name.sh"
 
 echo "display as normal text"

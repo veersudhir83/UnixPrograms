@@ -1,5 +1,5 @@
 #!/bin/bash
-# ***** Retrieve user information from /etc/passwd file using IFS and grep *****
+# Purpose: Retrieve user information from /etc/passwd file using IFS and grep.
 # Execution: "sh script_name.sh"
 
 echo "\033[7mPlease input username:\033[0m \c"

@@ -1,5 +1,5 @@
 #!/bin/bash
-# ***** To demonstrate advanced concepts in case statements *****
+# Purpose: To demonstrate advanced concepts in case statements.
 # Execution: "sh script_name.sh"
 
 echo "\033[7mPlease input a character:\033[0m \c"

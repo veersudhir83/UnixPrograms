@@ -1,5 +1,5 @@
 #!/bin/bash
-# ***** To use tput for operating the terminal *****
+# Purpose: To use tput for operating the terminal.
 # Execution: "sh script_name.sh"
 
 tput clear

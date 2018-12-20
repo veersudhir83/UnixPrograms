@@ -1,5 +1,5 @@
 #!/bin/bash
-# ***** To demonstrate different kind of loops *****
+# Purpose: To demonstrate different kind of loops.
 # Execution: "sh script_name.sh"
 
 echo "\033[7mPlease input max number:\033[0m \c"
