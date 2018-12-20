@@ -13,12 +13,12 @@
 | `check_file_permission_and_append.sh`      | To check if the user has write permission to file and append contents      |
 | `string_operations.sh`                     | To perform operations on strings                                           |
 | `logical_operations.sh`                    | To perform logical operations                                              |
-| `case_block.sh`                            | To demonstrate usage of case statement                                     |
-| `case_block_advanced.sh`                   | To demonstrate advanced usage of case statement                            |
+| `case_block.sh`                            | To demonstrate the usage of case statement                                 |
+| `case_block_advanced.sh`                   | To demonstrate the advanced usage of case statement                        |
 | `loops.sh`                                 | To demonstrate the usage of different kind of loops                        |
 | `read_user_info_from_etc_passwd_file.sh`   | To check and display user info from the /etc/passwd file                   |
 | `read_from_file.sh`                        | To read contents from file and append line numbers                         |
-
+| `sleep.sh`                                 | To demonstrate the usage of sleep command                                  |
 
 
 ## Other useful commands
