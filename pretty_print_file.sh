@@ -5,6 +5,12 @@
 echo "\033[7mPlease input the name of the file:\033[0m \c"
 read fileName
 
+if [ ! -f $fileName ]
+then
+    echo "File doesn't exist."
+    exit
+fi
+
 if [ -z $fileName ]
 then
     echo "File name is not provided."

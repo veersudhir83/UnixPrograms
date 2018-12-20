@@ -17,9 +17,9 @@
 | `case_block_advanced.sh`                   | To demonstrate the advanced usage of case statement                        |
 | `loops.sh`                                 | To demonstrate the usage of different kind of loops                        |
 | `read_user_info_from_etc_passwd_file.sh`   | To check and display user info from the /etc/passwd file                   |
-| `read_from_file.sh`                        | To read contents from file and append line numbers                         |
+| `pretty_print_file.sh`                     | To read contents from file and append line numbers                         |
 | `sleep.sh`                                 | To demonstrate the usage of sleep command                                  |
-
+| `count_lines_and_words.sh`                 | To display count of lines and words in a given file                        |
 
 ## Other useful commands
 1. **/etc/passwd** - The password file that stores the user accounts information
