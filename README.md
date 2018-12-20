@@ -27,7 +27,13 @@
    
 2. The encrypted passwords are stored in the **/etc/shadow** file.
 
-3. **grep** To find a pattern of text in a file
+3. **IFS** - Internal field separator; by default space / tab / LineFeed
+   You may change the value using 
+   ```sh 
+   IFS=:
+   ```
+
+4. **grep** To find a pattern of text in a file
 ```sh
 grep -n -i -c <pattern> <file_name>
 ```
