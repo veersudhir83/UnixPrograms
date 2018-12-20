@@ -31,7 +31,9 @@
 ```sh
 grep -n -i -c <pattern> <file_name>
 ```
--i = ignores case sensitivity
--n = displays the line number of the matched occurrence in the file
--c = displays only the count of occurrences
--v = invert matches - shows all the lines that do not match the given pattern
+| Switch   | Purpose                                                                  |
+| :------- | :----------------------------------------------------------------------- |
+| `-i`     | ignores case sensitivity                                                 |
+| `-n`     | displays the line number of the matched occurrence in the file           |
+| `-c`     | displays only the count of occurrences                                   |
+| `v`      | invert matches - shows all the lines that do not match the given pattern |
