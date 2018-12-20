@@ -24,9 +24,10 @@
 ## Other useful commands
 1. **/etc/passwd** - The password file that stores the user accounts information
    username:x(password is encrypted):userid:groupid:computername:homedir:defaultshell 
-   The encrypted passwords are stored in the **/etc/shadow** file.
+   
+2. The encrypted passwords are stored in the **/etc/shadow** file.
 
-2. **grep** To find a pattern of text in a file
+3. **grep** To find a pattern of text in a file
 ```sh
 grep -n -i -c <pattern> <file_name>
 ```
