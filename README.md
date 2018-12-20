@@ -17,7 +17,7 @@
 | `case_block_advanced.sh`                   | To demonstrate advanced usage of case statement                            |
 | `loops.sh`                                 | To demonstrate the usage of different kind of loops                        |
 | `read_user_info_from_etc_passwd_file.sh`   | To check and display user info from the /etc/passwd file                   |
-
+| `read_from_file.sh`                        | To read contents from file and append line numbers                         |
 
 
 
