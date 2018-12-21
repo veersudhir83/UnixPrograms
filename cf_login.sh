@@ -8,16 +8,16 @@ useProxy() {
     echo -n "Login via Proxy [y/n]: "
 	read -r viaProxy
 	if [[ "$viaProxy" == "y" ]] ;then
-		export http_proxy=http://proxy-tvm.quest-global.com:8080
-		export https_proxy=http://proxy-tvm.quest-global.com:8080
+		export http_proxy=http://proxy.xxx.com:8080
+		export https_proxy=http://proxy-xxx.com:8080
 	fi
 }
 
 chooseAccount() {
 	echo -n "Choose the number from below accounts: 
-	1) Quest
-	2) GE
-	3) TechM
+	1) Account1
+	2) Account2
+	3) Account3
 	0) Logout
 	Your Selection: "
 	read -r input	
@@ -29,28 +29,28 @@ loginFunction() {
     if [[ $selectedAccount -gt 0 && $selectedAccount -lt 4 ]] ;then
         useProxy
     fi
-	# For Quest Account
+	# For Account1
 	if [[ "$selectedAccount" == "1" ]] ;then
-		echo "Logging into Predix Account for Quest"
-	    user_name=sudheer.veeravalli@quest-global.com
+		echo "Logging into Predix Account for Account1"
+	    user_name=sudheer.veeravalli@xxx.com
 		password=XXXXXX
 		login_command="cf login -a $api_url -u $user_name -p $password && cf a"
 		eval $login_command
 		exit 0;
 		
-	# For GE Account
+	# For Account2
 	elif [[ "$selectedAccount" == "2" ]] ;then 
-		echo "Logging into Predix Account for GE"
-	    user_name=sudheer.veeravalli@ge.com
+		echo "Logging into Predix Account for Account2"
+	    user_name=sudheer.veeravalli@xxx.com
 		password=XXXXXX
 		login_command="cf login -a $api_url -u $user_name -p $password"
 		eval $login_command
 		exit 0;
 		
-	# For TechM Account
+	# For Account3
 	elif [[ "$selectedAccount" == "3" ]] ;then 
-		echo "Logging into Predix Account for TechM"
-	    user_name=sudheer.veeravalli@techmahindra.com
+		echo "Logging into Predix Account for Account3"
+	    user_name=sudheer.veeravalli@xxx.com
 		password=XXXXXX
 		login_command="cf login -a $api_url -u $user_name -p $password"
 		eval $login_command
