@@ -3,6 +3,7 @@
 | Script Name                                | Purpose                                                                    |
 | :----------------------------------------- | :------------------------------------------------------------------------- |
 | `append_file_contents_in_directory.sh`     | To read files in a given directory and append contents                     |
+| `add_numbers_in_files.sh`                  | To add numbers stored in multiple files and display the sum                |
 | `arithmetic_operations.sh`                 | To perform arithmetic operations using expr and bc                         |
 | `count_of_file_and_folders.sh`             | To display count of files and folders                                      |
 | `if_then_else.sh`                          | To demonstrate if-then-else                                                |
@@ -20,6 +21,13 @@
 | `pretty_print_file.sh`                     | To read contents from file and append line numbers                         |
 | `sleep.sh`                                 | To demonstrate the usage of sleep command                                  |
 | `count_lines_and_words.sh`                 | To display count of lines and words in a given file                        |
+| `artifactory_cleanup.sh`                   | To clean up folders and files from artifactory                             |
+| `deployment_verification.sh`               | Adds a sample jsp - useful in validating if deployment is successful       |
+| `show_jenkins_build_info.sh                | To retrieve build information from jenkins                                 |
+| `containers_monitor.sh`                    | To monitor status of multiple docker containers in a single terminal       |
+| `run_on_all_nodes.sh`                      | To run a single commands on several nodes in a shot                        |
+| `set_proxy.sh`                             | Script to set http proxy                                                   |
+
 
 ## Other useful commands
 1. **/etc/passwd** - The password file that stores the user accounts information
