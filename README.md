@@ -27,6 +27,7 @@
 | `containers_monitor.sh`                    | To monitor status of multiple docker containers in a single terminal       |
 | `run_on_all_nodes.sh`                      | To run a single commands on several nodes in a shot                        |
 | `set_proxy.sh`                             | Script to set http proxy                                                   |
+| `cf_login.sh`                              | Single script to switch between several accounts for cloud accounts        |
 
 
 ## Other useful commands
