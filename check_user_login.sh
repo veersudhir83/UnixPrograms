@@ -10,7 +10,7 @@ if [ $? -eq 0 ]
 then
     echo "User found. Wait..."
 else
-    echo "User not found"
+    echo "User not found."
     exit
 fi
 
@@ -21,14 +21,21 @@ do
     who | grep "$loginName" > /dev/null
     if [ $? -eq 0 ]
     then
-        echo "$loginName has logged in"
+        echo "$loginName has logged in."
         if [ $duration -ne 0 ]
         then
-            echo "$loginName is $duration minutes late to login"            
+            if [ $duration -gt 59 ]
+            then
+                mins=`expr $duration / 60`
+                secs=`expr %duration % 60`
+                echo "$loginName is $min minutes and $secs seconds late to logging in."
+            else
+                echo "$loginName is %duration seconds late to logging in."
+            fi
         fi
         exit
     else
         $duration=`expr $duration + 1`
-        sleep 60
+        sleep 1
     fi
 done
