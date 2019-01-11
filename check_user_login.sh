@@ -4,6 +4,16 @@
 
 echo "Enter UserName to check: \c"
 read loginName
+
+grep "$loginName" /etc/passwd > /dev/null
+if [ $? -eq 0 ]
+then
+    echo "User found. Wait..."
+else
+    echo "User not found"
+    exit
+fi
+
 duration=0
 
 while true
