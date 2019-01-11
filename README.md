@@ -17,6 +17,7 @@
 | `count_lines_and_words.sh`                 | To display count of lines and words in a given file                        |
 | `count_of_file_and_folders.sh`             | To display count of files and folders                                      |
 | `deployment_verification.sh`               | Adds a sample jsp - useful in validating if deployment is successful       |
+| `custom_functions.sh`                      | Contains the blocks of code written as functions so they can be re-used    |
 | `if_then_else.sh`                          | To demonstrate if-then-else                                                |
 | `logical_operations.sh`                    | To perform logical operations                                              |
 | `loops.sh`                                 | To demonstrate the usage of different kind of loops                        |
@@ -64,3 +65,15 @@ mesg y/n
 ```
 The sender can also check if the user has enabled **mesg** by typing **finger** command, any user disabled **mesg** feature will be shown as asterisk (\*) during the finger command.
 The sender should fire *Ctrl + D* command to end/finish the message.
+
+5. **Custom Functions** To store blocks of re-useable code that will be stored in memory and re-used later. Refer to *custom_functions.sh*
+Assume I have two functions *goodmorning()* and *goodbye()* in the *custom_functions.sh*
+First, you have to store them in memory by invoking
+```sh
+chmod +x functions.sh && . functions.sh
+```
+Then you can call those two functions from the shell prompt directly by typing
+```sh
+goodmorning
+goodbye
+```
