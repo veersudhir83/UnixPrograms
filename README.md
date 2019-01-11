@@ -77,3 +77,7 @@ Then you can call those two functions from the shell prompt directly by typing
 goodmorning
 goodbye
 ```
+To remove the function from memory, you may type the below command.
+```sh
+unset <function_name>
+```
