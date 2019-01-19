@@ -5,7 +5,7 @@
 echo "\033[7mPlease input a character:\033[0m \c"
 read input
 
-case $input in 
+case $input in
 [a-z])
     echo "You entered a lower case character."
     ;;
@@ -18,7 +18,7 @@ case $input in
 ?)
     echo "You entered a special symbol."
     ;;
-*)  
+*)
     echo "You entered more than one character."
     ;;
 esac
