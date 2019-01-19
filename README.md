@@ -31,7 +31,6 @@
 | `string_operations.sh`                     | To perform operations on strings                                           |
 | `tput.sh`                                  | To use tput to play around on the terminal                                 |
 
-
 ## Other useful commands
 1. **/etc/passwd** - The password file that stores the user accounts information
    username:x(password is encrypted):userid:groupid:computername:homedir:defaultshell 
