@@ -4,7 +4,7 @@ sessionname="tmux_local"
 
 cd="cd ~/workbench"
 watch="watch -d -n 0.5 "
-pane1="$cd"
+pane1="$cd; ssh-add ~/.ssh/github_id_rsa; clear"
 pane2="$cd/UnixPrograms"
 pane3="top"
 pane4="cal"
