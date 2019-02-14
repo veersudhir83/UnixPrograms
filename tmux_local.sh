@@ -22,8 +22,8 @@ tmux split-window -p 25 -v
 tmux send-keys "$pane2" C-m
 
 # Pane 3 settings
-tmux split-window -p 25 -h
-tmux send-keys "$pane3" C-m
+# tmux split-window -p 25 -h
+# tmux send-keys "$pane3" C-m
 
 # Pane 4 settings
 tmux split-window -p 25 -h
