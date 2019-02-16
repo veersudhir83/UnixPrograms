@@ -4,9 +4,10 @@ sessionname="tmux_local"
 
 cd="cd ~/workbench"
 watch="watch -d -n 0.5 "
-pane1="$cd; ssh-add ~/.ssh/github_id_rsa; clear"
-pane2="ssh osboxes@mydevops.io"
-pane3="top"
+
+pane1="ssh osboxes@mydevops.io"
+pane2="$cd; ssh-add ~/.ssh/github_id_rsa; clear"
+pane3="ssh user@machineIp"
 pane4="cal"
 
 tmux kill-session -t $sessionname
@@ -22,11 +23,11 @@ tmux split-window -p 25 -v
 tmux send-keys "$pane2" C-m
 
 # Pane 3 settings
-# tmux split-window -p 25 -h
-# tmux send-keys "$pane3" C-m
+tmux split-window -p 25 -h
+tmux send-keys "$pane3" C-m
 
 # Pane 4 settings
-tmux split-window -p 25 -h
+tmux split-window -p 15 -h
 tmux send-keys "$pane4" C-m
 
 tmux -2 attach-session -d -t $sessionname 
